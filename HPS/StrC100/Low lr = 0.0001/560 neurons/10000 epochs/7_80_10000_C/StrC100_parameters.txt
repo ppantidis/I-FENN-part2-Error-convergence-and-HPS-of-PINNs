@@ -1,0 +1,51 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%_____Solver_and_tangent_IDs________
+SolverID:				2
+TangentID:				1
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%__________Coords_and_dofs__________
+No._coords_per_node:   	2
+No._DOF_per_node:      	3
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%______Characteristic_length________
+lc:						4
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%____Adaptive_loading_parameters____
+increment: 					1                    
+inc_success_counter:		1          
+min_iter:					5                     
+max_iter:					12                    
+max_accept_iter:			30             
+loadfactor:					0.005          
+dlfactor:					0.005
+dlfactor_incr_threshold:	0.005
+increment_plot_threshold:	3     
+loadfactor_plot_threshold:	0.814
+flaglf:						false                   
+countflaglf:				0                  
+incrflag:					1                    
+flagplot:					1
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%_________Number_of_domains_________
+Number_of_domains:			1
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%______Material_parameters__________
+No._material_props:    	3
+Shear_modulus:   		125000.00
+Poissons_ratio:  		0.20
+Plane_strain/stress: 	1
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%__Mazar's_damage_model_parameters__
+alpha_val: 				0.7
+beta_val:				10000
+e_delta:				0.0001
+dmax:					0.95
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Mesh_filename: StrC100_mesh.txt
